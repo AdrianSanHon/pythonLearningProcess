@@ -1,13 +1,13 @@
-class Estudiante():
+class estudiante():
     def __init__(self, nombre, apellido, universidad):
         self.nombre = nombre
         self.apellido = apellido
         self.universidad = universidad
 
 
-estudiante1 = Estudiante("Adrian", "Sanchez", "Complutense")
-estudiante2 = Estudiante("Ricardo", "Whoknows", "LaVida")
-estudiante3 = Estudiante("Pepe", "Maderas", "ElBosque")
+estudiante1 = estudiante("Adrian", "Sanchez", "Complutense")
+estudiante2 = estudiante("Ricardo", "Whoknows", "LaVida")
+estudiante3 = estudiante("Pepe", "Maderas", "ElBosque")
 
 clase = [estudiante1, estudiante2, estudiante3]
 

@@ -1,0 +1,17 @@
+Calculadora con 4 metodos y parametros con enteros
+    Queremos usar type() para ver como Python decide los tipos en base a los valores de inicialización que le damos
+
+Calculadora con 4 metodos y parametros con decimales
+    Queremos usar type() para ver como Python decide los tipos en base a los valores de inicialización que le damos
+
+Escritura en fichero
+¿Cómo haría para escribir en fichero en el disco duro?
+
+Crear un array con números y sumar sus valores
+    Hay que usar azúcar sintáctico para el bucle
+
+Crear dos diccionarios y unirlos
+
+Definir una clase estudiante, crear varios estudiantes y meterlos en una lista
+
+Reproducir el ejemplo visto en el diagrama 16 de dos ficheros

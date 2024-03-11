@@ -22,7 +22,7 @@ def calculator():
         elif x == '/':
             res = a / b
         else:
-            print("Invalid operator!")
+            print("Operador no valido!!")
             continue
         print("Tipo_Variable_Primer_Dato ->", type(a))
         print("Tipo_Variable_Segundo_Dato ->", type(b))

@@ -1,12 +1,19 @@
-def order(sentence):
-    words = sentence.split(" ")
-    orderedWords = []
-    for word in words:
-        chars=word.split()
-        for char in chars:
-            if char.isdigit():
-                orderedWords[char-1] = word
-                continue
-    return " ".join(orderedWords)
+def sort_array(source_array):
+    odd = {}
+    odds = []
+    i = 0
 
-print(order("is2 Thi1s T4est 3a"))
+    resu = source_array
+    while i < len(source_array):
+        if(source_array[i] % 2 != 0):
+            odd[i] = source_array[i]
+            odds.append(source_array[i])
+        i+=1
+
+    odds = sorted(odds)
+    keys = list(odd.keys())
+    i = 0
+    while i<len(odds):
+        resu[keys[i]] = odds[i]
+        i+=1
+    return resu
